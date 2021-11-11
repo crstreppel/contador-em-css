@@ -1,0 +1,27 @@
+div {
+  height: 20px;
+  width: auto;
+  border: 1px black solid;
+}
+.counter-reset {
+  counter-reset: meuContador;
+}
+.print-counter::after {
+  content: counter(meuContador);
+}
+.up-counter:hover {
+  counter-increment: meuContador;
+}
+
+/* .up-counter:hover {
+  counter-increment: meuContador;
+}
+
+.up-counter:hover {
+  background-color: blue;
+  counter-increment: meuContador;
+}
+
+.teste:hover {
+  background-color: red;
+} */
