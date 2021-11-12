@@ -1,22 +1,18 @@
-.counter-reset {
-  counter-reset: meuContador;
-}
-.print-counter::after {
-  content: counter(meuContador);
-}
-.up-counter:hover {
-  counter-increment: meuContador + 1;
-}
-
-/* .up-counter:hover {
-  counter-increment: meuContador;
-}
-
-.up-counter:hover {
-  background-color: blue;
-  counter-increment: meuContador;
-}
-
-.teste:hover {
+div {
+  margin-top: 45px;
+  height: 200px;
+  width: 400px;
   background-color: red;
-} */
+  border: 5px solid black;
+}
+
+.transform:hover {
+  transform: skew(25deg, 10deg);
+}
+.transform1:hover {
+  transform: scale(1.2);
+}
+
+.transform2:hover {
+  -webkit-transform: perspective(300) rotateX(8deg);
+}
